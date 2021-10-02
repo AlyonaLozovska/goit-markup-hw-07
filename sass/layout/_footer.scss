@@ -15,6 +15,11 @@
     border-radius: 4px;
     background: #2F303A;
     resize: none;
+
+        &:focus,
+        &l:hover {
+            fill: var(--accent-color);
+        }
     }
     
     
@@ -36,10 +41,7 @@
     }
     
     
-    .footer-form-email:focus,
-    .footer-form-email:hover {
-    fill: var(--accent-color);
-    }
+    
     
     
     .footer-form-btn {
@@ -59,14 +61,16 @@
     letter-spacing: 0.06em;
     color: var(--title-text-color);
     margin-left: 12px;
+
+        &:focus,
+        &:hover {
+            background: var(--accent-color);
+            transition: fill 250ms linear;
+        }
     }
     
     
-    .footer-form-btn:focus,
-    .footer-form-btn:hover {
-    background: var(--accent-color);
-    transition: fill 250ms linear;
-    }
+    
     
     
     .footer-form-icon {

@@ -78,6 +78,10 @@ img {
   transition: color 250ms linear;
 }
 
+.modal-btn:hover, .modal-btn:focus {
+  background: var(--background-button);
+}
+
 .button {
   width: 200px;
   height: 50px;
@@ -85,11 +89,6 @@ img {
   margin-bottom: 200px;
   margin-left: 700px;
   margin-right: 700px;
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-  background: var(--background-button);
 }
 
 .social-list {
@@ -114,8 +113,7 @@ img {
   transition: background-color 500ms, fill 500ms linear;
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:hover, .social-list-linkk:focus {
   fill: var(--title-text-color);
   background-color: var(--accent-color);
 }
@@ -263,10 +261,6 @@ img {
   background-repeat: no-repeat;
 }
 
-.modal-form-checkbox:focus + .modal-form-checkbox-label::before {
-  border-color: var(--accent-color);
-}
-
 .visyally-hidden {
   position: absolute;
   width: 1px;
@@ -283,6 +277,10 @@ img {
   align-items: center;
   font-size: 14px;
   margin-bottom: 20px;
+}
+
+.modal-form-checkbox:focus + .modal-form-checkbox-label::before {
+  border-color: var(--accent-color);
 }
 
 .modal-form-checkbox-label::before {
@@ -311,8 +309,7 @@ img {
   color: var(--title-text-color);
 }
 
-.modal-form-btn:focus,
-.modal-form-btn:hover {
+.modal-form-btn:focus, .modal-form-btn:hover {
   background: var(--accent-color);
   transition: fill 250ms linear;
 }
@@ -681,8 +678,7 @@ img {
   transition: background-color 500ms, fill 500ms linear;
 }
 
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
+.footer-social-list-link:hover, .footer-social-list-link:focus {
   fill: var(--title-text-color);
   background-color: var(--accent-color);
 }
@@ -722,6 +718,10 @@ img {
   resize: none;
 }
 
+.footer-form-email:focus, .footer-form-emaill:hover {
+  fill: var(--accent-color);
+}
+
 .footer-form-email::placeholder {
   width: 47px;
   height: 20px;
@@ -736,11 +736,6 @@ img {
   align-items: center;
   letter-spacing: 0.03em;
   fill: rgba(255, 255, 255, 0.6);
-}
-
-.footer-form-email:focus,
-.footer-form-email:hover {
-  fill: var(--accent-color);
 }
 
 .footer-form-btn {
@@ -762,8 +757,7 @@ img {
   margin-left: 12px;
 }
 
-.footer-form-btn:focus,
-.footer-form-btn:hover {
+.footer-form-btn:focus, .footer-form-btn:hover {
   background: var(--accent-color);
   transition: fill 250ms linear;
 }

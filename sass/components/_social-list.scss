@@ -19,11 +19,13 @@
     background-color: var(--title-text-color);
     fill: #AFB1B8;
     transition: background-color 500ms, fill 500ms linear;
+
+        &:hover,
+        &k:focus {
+            fill: var(--title-text-color);
+            background-color: var(--accent-color);
+        }
     }
     
-    .social-list-link:hover,
-    .social-list-link:focus {
-    fill: var(--title-text-color);
-    background-color: var(--accent-color);
-    }
+    
     

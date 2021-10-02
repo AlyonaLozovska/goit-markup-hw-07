@@ -62,13 +62,15 @@
     border: 1px solid #AFB1B8;
     height: 100%;
     transition: background-color 500ms, fill 500ms linear;
+
+        &:hover,
+        &:focus {
+            border-color: var(--accent-color);
+            fill: var(--accent-color);
+        }
+    
     }
     
     
-    .customers-item-icon:hover,
-    .customers-item-icon:focus {
-    border-color: var(--accent-color);
-    fill: var(--accent-color);
-    }
     
     
