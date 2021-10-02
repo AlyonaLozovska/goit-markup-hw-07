@@ -21,7 +21,7 @@
     transition: background-color 500ms, fill 500ms linear;
 
         &:hover,
-        &k:focus {
+        &:focus {
             fill: var(--title-text-color);
             background-color: var(--accent-color);
         }

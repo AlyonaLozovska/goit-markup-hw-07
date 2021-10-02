@@ -9,12 +9,12 @@
     color: #212121;
     }
     
-    .customers-list {
+    .customers {
     display: flex;
     justify-content: space-between;
     }
     
-    .customers-list-item {
+    .customers-item {
     width: 170px;
     height: 92px;
     }
@@ -62,15 +62,12 @@
     border: 1px solid #AFB1B8;
     height: 100%;
     transition: background-color 500ms, fill 500ms linear;
-
-        &:hover,
-        &:focus {
-            border-color: var(--accent-color);
-            fill: var(--accent-color);
-        }
-    
     }
     
     
-    
+    .customers-item-icon:hover,
+    .customers-item-icon:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+    }
     

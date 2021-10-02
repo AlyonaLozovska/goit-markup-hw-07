@@ -255,7 +255,8 @@ padding-right: 24px;
 }
 
 .project-list {
-margin-left: 215px;
+padding: 0;
+/* margin-left: 215px; */
 display: flex;
 flex-wrap: wrap;
 margin-top: -30px;
